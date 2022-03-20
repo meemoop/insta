@@ -18,6 +18,7 @@
 		52537A8927E4CEE80000930F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8827E4CEE80000930F /* Assets.xcassets */; };
 		52537A8C27E4CEE80000930F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8A27E4CEE80000930F /* LaunchScreen.storyboard */; };
 		52CB6BCA27E7974B00986136 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52CB6BC927E7974B00986136 /* README.md */; };
+		52CB6BCC27E79A2300986136 /* recording.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52CB6BCB27E79A2300986136 /* recording.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		52537A8B27E4CEE80000930F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52537A8D27E4CEE80000930F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CB6BC927E7974B00986136 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52CB6BCB27E79A2300986136 /* recording.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recording.gif; sourceTree = "<group>"; };
 		C3451007275A76B13276D1D4 /* Pods-insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.debug.xcconfig"; path = "Target Support Files/Pods-insta/Pods-insta.debug.xcconfig"; sourceTree = "<group>"; };
 		CA23885E0485A08AEF4489F9 /* Pods-insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.release.xcconfig"; path = "Target Support Files/Pods-insta/Pods-insta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 		52537A7327E4CEE50000930F = {
 			isa = PBXGroup;
 			children = (
+				52CB6BCB27E79A2300986136 /* recording.gif */,
 				52CB6BC927E7974B00986136 /* README.md */,
 				52537A7E27E4CEE60000930F /* insta */,
 				52537A7D27E4CEE60000930F /* Products */,
@@ -166,6 +169,7 @@
 				52537A8C27E4CEE80000930F /* LaunchScreen.storyboard in Resources */,
 				52537A8927E4CEE80000930F /* Assets.xcassets in Resources */,
 				52CB6BCA27E7974B00986136 /* README.md in Resources */,
+				52CB6BCC27E79A2300986136 /* recording.gif in Resources */,
 				52537A8727E4CEE60000930F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
