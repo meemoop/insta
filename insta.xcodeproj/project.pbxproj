@@ -17,6 +17,7 @@
 		52537A8727E4CEE60000930F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8527E4CEE60000930F /* Main.storyboard */; };
 		52537A8927E4CEE80000930F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8827E4CEE80000930F /* Assets.xcassets */; };
 		52537A8C27E4CEE80000930F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52537A8A27E4CEE80000930F /* LaunchScreen.storyboard */; };
+		528F4A7327EEBC3600854572 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F4A7227EEBC3600854572 /* CommentCell.swift */; };
 		52CB6BCA27E7974B00986136 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52CB6BC927E7974B00986136 /* README.md */; };
 		52CB6BCC27E79A2300986136 /* recording.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52CB6BCB27E79A2300986136 /* recording.gif */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		52537A8827E4CEE80000930F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52537A8B27E4CEE80000930F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52537A8D27E4CEE80000930F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528F4A7227EEBC3600854572 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		52CB6BC927E7974B00986136 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52CB6BCB27E79A2300986136 /* recording.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recording.gif; sourceTree = "<group>"; };
 		C3451007275A76B13276D1D4 /* Pods-insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.debug.xcconfig"; path = "Target Support Files/Pods-insta/Pods-insta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				5245990327E4D6400001ABB4 /* FeedViewController.swift */,
 				5245990527E4E3030001ABB4 /* CameraViewController.swift */,
 				5245990727E504D60001ABB4 /* PostCell.swift */,
+				528F4A7227EEBC3600854572 /* CommentCell.swift */,
 			);
 			path = insta;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				5245990427E4D6400001ABB4 /* FeedViewController.swift in Sources */,
 				52537A8227E4CEE60000930F /* SceneDelegate.swift in Sources */,
 				5245990827E504D60001ABB4 /* PostCell.swift in Sources */,
+				528F4A7327EEBC3600854572 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
